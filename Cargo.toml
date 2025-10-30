@@ -1,0 +1,3 @@
+[workspace]
+members = ["aether", "astralys", "atlas", "axon", "capsule", "cipher", "cube", "cubefs", "dualys", "eclipse", "forge", "genesis", "ghost", "hamon", "jah", "k", "kodo", "kog", "kognitara", "nebula", "nexus", "nyx", "oblivion", "oracle", "phantom", "plan", "pulse", "sanctuary", "sentinel", "singularity", "soul", "tao"]
+resolver = "3"
