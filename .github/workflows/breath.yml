@@ -1,0 +1,22 @@
+name: Breath
+on:
+  push:
+    branches: 
+      - main
+      - develop
+  pull_request:
+    branches: 
+      - main
+      - develop   
+env:
+  CARGO_TERM_COLOR: always
+  CARGO_HOME: /usr
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+    - name: deps
+      run: sudo apt-get update -y && sudo apt-get install git && git clone https://github.com/hackia/breath b && cd b && cargo install --path . 
+    - uses: actions/checkout@v4
+    - name: Breath
+      run: breath health
