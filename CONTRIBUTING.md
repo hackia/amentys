@@ -113,8 +113,6 @@ Your commit messages **must** follow this format:
 
 ```bash
 # Get the latest changes
-
-```bash
 git checkout main
 git pull origin main
 ```
