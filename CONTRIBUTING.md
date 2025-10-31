@@ -14,6 +14,9 @@ This project and everyone participating in it is governed by our [Code of Conduc
 
   * **Rust:** You must have the latest stable version of Rust installed. We recommend installing it via `rustup`.
   * **Git:** You'll need Git to fork and clone the repository.
+  * **Breath** the tools to commit.
+
+![demo](https://github.com/hackia/amentys/blob/main/commit.gif)
 
 ### Project Setup
 
@@ -80,7 +83,7 @@ Your commit messages **must** follow this format:
         
     Benefits:
     
-        * <benefice>
+        * <benefits>
     
     Notes:
     
@@ -110,6 +113,7 @@ Your commit messages **must** follow this format:
 
 ```bash
 # Get the latest changes
+
 ```bash
 git checkout main
 git pull origin main
