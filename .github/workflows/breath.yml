@@ -10,7 +10,6 @@ on:
       - develop   
 env:
   CARGO_TERM_COLOR: always
-  CARGO_HOME: /usr
 jobs:
   build:
     runs-on: ubuntu-latest
