@@ -15,7 +15,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - name: deps
-      run: sudo apt-get update -y && sudo apt-get install git && git clone https://github.com/hackia/breath b && cd b && cargo install --path . 
+      run: sudo apt-get update -y && sudo apt-get install git && git clone https://github.com/hackia/breath b && cd b && cargo install --path .  && cargo install cargo-audit cargo-outdated 
     - uses: actions/checkout@v4
     - name: Breath
       run: breath health
